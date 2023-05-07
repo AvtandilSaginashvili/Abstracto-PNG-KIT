@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1A1C21;
+}
+
+@font-face {
+    font-family: Bebas Neue;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+
+
+.mainbox {
+    background-image: url(../pics/Group\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.img1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.h1-1 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 180px;
+    color: #fff;
+}
+
+.textbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.btn {
+    width: 308.05px;
+    height: 108px;
+    background-color: #9004FE;
+    border: none;
+    border-radius: 61.3636px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    color: #fff;
+}
+
+.btnbox {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 63px;
+}
